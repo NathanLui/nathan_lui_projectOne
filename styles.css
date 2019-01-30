@@ -130,7 +130,7 @@ header h3 {
 }
 @media (max-width: 450px) {
    .fullBleed {
-    background-image: url("assets/image1mobile.png")
+    background-image: url("assets/image1Mobile.jpg")
     }
 }
 .navIcons li:last-child {
