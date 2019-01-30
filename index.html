@@ -30,11 +30,16 @@
                 </div>
             </div class="clearfix socialBox">
                 <ul class="socials">
-                    <li><i class="fab fa-instagram"></i></li>
-                    <li><i class="fab fa-facebook-f"></i></li>
-                    <li><i class="fab fa-snapchat-ghost"></i></li>
-                    <li><i class="fab fa-twitter"></i></li>
+                    <li><i class="fab fa-instagram" aria-hidden="true"></i></li>
+                    <span class="sr-only">Link to Instagram</span>
+                    <li><i class="fab fa-facebook-f" aria-hidden="true"></i></li>
+                    <span class="sr-only">Link to Facebook</span>
+                    <li><i class="fab fa-snapchat-ghost" aria-hidden="true"></i></li>
+                    <span class="sr-only">Link to Snapchat</span>
+                    <li><i class="fab fa-twitter" aria-hidden="true"></i></li>
+                    <span class="sr-only">Link to Twitter</span>
                 </ul>
+            </div>
          </div>
     </header>
 
@@ -42,9 +47,9 @@
         <section class="articleSection wrapper clearfix">
             <h2>News Article</h2>
             <div class="articleGallery clearfix">
-                <img src="assets/image2.jpg" class="galleryItem1 alt="">
-                <img src="assets/image3.jpg" class="galleryItem2 alt="">
-                <img src="assets/image4.jpg" class="galleryItem3 alt="">
+                <img src="assets/image2.jpg" class="galleryItem1 alt="two women in blue designer dresses">
+                <img src="assets/image3.jpg" class="galleryItem2 alt="asian man with a sweet haircut">
+                <img src="assets/image4.jpg" class="galleryItem3 alt="man holding a cup of coffee smiling">
             </div>
             <div class="highlights clearfix">
                 <img src="assets/image4.jpg" alt="">
@@ -59,7 +64,7 @@
         <section class="fashionSection">
            <div class="clearfix">
                 <div class="imageRight">
-                    <img src="assets/image5.jpg" alt="">
+                    <img src="assets/image5.jpg" alt="dark haired woman with a fluffy coat">
                 </div>
                 <div class="textLeft">
                     <h2>New Trends to Lookout For</h2>
@@ -69,7 +74,7 @@
             </div>     
             <div class="clearfix"> 
                 <div class="imageLeft">
-                    <img src="assets/image6.jpg" alt="">
+                    <img src="assets/image6.jpg" alt="two men wearing designer glasses staring intently">
                 </div>
                 <div class="textRight">
                     <h2>Behind the scenes from spring/summer fashion week</h2>
@@ -103,7 +108,8 @@
                 <h3>Stay Updated</h3>
                 <p>Subscribe to our newsletter to stay updated.</p>
                 <form class="clearfix email">
-                    <input type="text" placeholder="email address">
+                    <label for="email" class="visuallyhidden">email address</label>
+                    <input type="text" placeholder="email address" id="email" name="email">
                     <button>subscribe</button>
                 </form>
             </div>
@@ -123,7 +129,6 @@
             </div>
         </div>
         <p class="copyright">Copyright © 2019 HackerYou</p>
-        
     </footer>
 </body>
 </html>

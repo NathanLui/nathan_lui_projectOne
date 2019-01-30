@@ -5,6 +5,8 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
 
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+.visuallyhidden:not(:focus):not(:active) { position: absolute; width: 1px; height: 1px; margin: -1px;border: 0;padding: 0;white-space: nowrap;clip-path: inset(100%);clip: rect(00 0 0);overflow: hidden;}
+
 /* Base Styles */
 html {
     font-size: 62.5%;
@@ -189,7 +191,7 @@ header h3 {
 }
 
 .articleGallery img {
-    width: calc((100% / 3) - 27px);
+    width: calc((100% / 3) - 40px);
     float: left;
 }
 
@@ -286,7 +288,6 @@ h2 {
     .articleGallery img:nth-of-type(2) {
         margin-right: 0;
     }
-
 }
 
 @media (max-width: 450px) {
@@ -319,12 +320,8 @@ h2 {
     
     .fashionSection h2 {
         font-size: 2.2rem;
-    }
-    
-    
+    }       
 }
-
-
 
 /* Fashion Section Styles */
 .imageLeft,
@@ -648,4 +645,3 @@ input {
         padding-bottom: 20px;
     }
 }
-  
